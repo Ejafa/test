@@ -148,6 +148,19 @@ This is an [example link](http://example.com/ "With a Title").
 
 <user@mail.com>
 
+**auto url linking**
+```
+http://google.com
+```
+http://google.com
+
+if you don't want auto linking then
+
+```
+`http://google.com`
+```
+`http://google.com`
+
 **Reference-style**
 
 ```
@@ -206,10 +219,110 @@ very useful when\*write something\*like this.
 
 ### 11. Tables
 
+```
 | Syntax      | Description |
 | ----------- | ----------- |
 | Header      | Title       |
 | Paragraph   | Text        |
+
+works same as 
+
+| Syntax | Description |
+| --- | ----------- |
+| Header | Title |
+| Paragraph | Text |
+
+```
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+to align text in table
+```
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+```
+
+| Syntax      | Description | Test Text     |
+| :---        |    :----:   |          ---: |
+| Header      | Title       | Here's this   |
+| Paragraph   | Text        | And more      |
+
+as it's hard to write | and -- in making table,people often use [table generator](http://www.tablesgenerator.com/markdown_tables "table generator online").
+
+### 12. Fenced Code Blocks
+
+three tick marks (```) or three tildes (~~~) on the lines before and after the code block
+
+~~~
+```
+multiple lines of coding goes here
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+~~~
+
+**Syntax Highlighting**
+
+~~~
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
+~~~
+```json
+{
+  "firstName": "Ejafa",
+  "lastName": "Bassam",
+  "University": "IU"
+}
+```
+~~~
+```
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc,char** argv)
+{
+    printf("writing codes in c with this highlighting is cood");
+    return(0);
+}
+```
+~~~
+~~~c
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(int argc,char** argv)
+{
+    printf("writing codes in c with this highlighting is cood");
+    return(0);
+}
+~~~
+
+### 13. Strikethrough
+
+```
+~~The world is flat.~~ We now know that the world is round.
+```
+~~The world is flat.~~ We now know that the world is round.
+
+### 14. Task Lists
+
+```
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+```
 
 - [x] Write the press release
 - [ ] Update the website
