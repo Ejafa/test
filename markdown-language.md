@@ -161,7 +161,7 @@ I get 10 times more traffic from [Google][1] than from
 ```
 ![alt text](/path/to/img.jpg "Title")
 ```
-![this is alternative text](https://www.pornhub.com/view_video.php?viewkey=ph5a66f5856bccdhttps://www.pornhub.com/photo/285894172)
+![this is alternative text](http://www.bravoerotica.com/lsg-models/sara/the-prague-sessions-1/06.jpg)
 
 
 
