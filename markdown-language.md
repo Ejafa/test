@@ -24,13 +24,3 @@ similarly double hash ## for header 2 and so on till header 6
 put 1-6 hashes to make header form 1 to 6
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
-
-lol
-this is not good
-
-I don't really know what will be done
-
-i need to get this
- 
-
- hello
