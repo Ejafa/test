@@ -12,7 +12,7 @@ by the way, markdown may be warter downed version of other markup languages like
 
 ### 1.paragraph
 
-<code>blank line</code>
+```blank line```
 
 ### 2.header
 
@@ -107,13 +107,13 @@ Ordered (numbered) lists use regular numbers, followed by periods
 
 paragraphed lists can be made.to do that we need to indent the lists properly
 
-<code>[number][.][tab/space]elements
+```[number][.][tab/space]elements
 
 [blank line]
 
 [indentation]elements
 
-</code>
+```
 
 1. item 1
 
@@ -138,7 +138,17 @@ This is an [example link](http://example.com/ "With a Title").
 ```
  this is [google](http://google.com "title of google")
 
-Reference-style
+
+**write emails and links**
+```
+<http://google.com>
+<username@mail.com>
+```
+<http://google.com>
+
+<user@mail.com>
+
+**Reference-style**
 
 ```
 I get 10 times more traffic from [Google][1] than from
@@ -161,7 +171,30 @@ I get 10 times more traffic from [Google][1] than from
 ```
 ![alt text](/path/to/img.jpg "Title")
 ```
-![this is alternative text](/image/just_do_it.gif "just do it man!")
+![this is alternative text for just do it](/images/just_do_it.gif "just do it man!")
+
+**Linking Images**
+
+To add a link to an image, enclose the Markdown for the image in brackets, and then add the link in parentheses.
+
+```
+[![An old rock in the desert](/images/hill.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
+```
+[![An old rock in the desert](/assets/images/shiprock.jpg "Shiprock, New Mexico by Beau Rogers")](https://www.flickr.com/photos/beaurogers/31833779864/in/photolist-Qv3rFw-34mt9F-a9Cmfy-5Ha3Zi-9msKdv-o3hgjr-hWpUte-4WMsJ1-KUQ8N-deshUb-vssBD-6CQci6-8AFCiD-zsJWT-nNfsgB-dPDwZJ-bn9JGn-5HtSXY-6CUhAL-a4UTXB-ugPum-KUPSo-fBLNm-6CUmpy-4WMsc9-8a7D3T-83KJev-6CQ2bK-nNusHJ-a78rQH-nw3NvT-7aq2qf-8wwBso-3nNceh-ugSKP-4mh4kh-bbeeqH-a7biME-q3PtTf-brFpgb-cg38zw-bXMZc-nJPELD-f58Lmo-bXMYG-bz8AAi-bxNtNT-bXMYi-bXMY6-bXMYv)
+
+
+### 8. Code
+```
+`coding in here`
+```
+
+### 9. Horizontal Rules
+
+```
+---
+***
+___
+```
 
 
 
