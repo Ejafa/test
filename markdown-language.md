@@ -12,23 +12,18 @@ by the way, markdown may be warter downed version of other markup languages like
 
 ### 1.paragraph
 
-blank line
+<code>blank line</code>
 
 ### 2.header
 
 headers in markdown are similar to HTML
 
-hash[#] space[ ] text to make header 1,
+<code>hash[#] space[ ] text to make header 1</code>
+
 similarly double hash ## for header 2 and so on till header 6
 
 put 1-6 hashes to make header form 1 to 6
 
-now this is workign in vscode
 
-wow
-
-now i am sync to github
-
-lol
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License</a>.
