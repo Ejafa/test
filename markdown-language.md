@@ -126,6 +126,42 @@ paragraphed lists can be made.to do that we need to indent the lists properly
 
 etc...
 
+### 6. Links
+
+```
+This is an [example link](http://example.com/).
+```
+this is [google](http://google.com)
+
+```
+This is an [example link](http://example.com/ "With a Title").
+```
+ this is [google](http://google.com "title of google")
+
+Reference-style
+
+```
+I get 10 times more traffic from [Google][1] than from
+[Yahoo][2] or [MSN][3].
+
+[1]: http://google.com/        "Google"
+[2]: http://search.yahoo.com/  "Yahoo Search"
+[3]: http://search.msn.com/    "MSN Search"
+```
+I get 10 times more traffic from [Google][1] than from
+[Yahoo][2] or [MSN][3].
+
+[1]: http://google.com/        "Google"
+[2]: http://search.yahoo.com/  "Yahoo Search"
+[3]: http://search.msn.com/    "MSN Search"
+
+
+### 7. Images
+
+```
+![alt text](/path/to/img.jpg "Title")
+```
+![this is alternative text](https://www.pornhub.com/view_video.php?viewkey=ph5a66f5856bccdhttps://www.pornhub.com/photo/285894172)
 
 
 
