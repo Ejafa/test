@@ -293,7 +293,7 @@ multiple lines of coding goes here
 
 int main(int argc,char** argv)
 {
-    printf("writing codes in c with this highlighting is cood");
+    printf("writing codes in c with this highlighting is cool");
     return(0);
 }
 ```
