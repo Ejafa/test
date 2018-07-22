@@ -8,7 +8,7 @@ this section will discuss on markdown laguage.markdown language is really a wart
 
 by the way, markdown may be warter downed version of other markup languages like html,xhtml etc. But most amazing fact of markdown language is that it is a superset of markup languages and it supports most of the tags of html language.
 
-## syntax
+## syntax(basics)
 
 ### 1.paragraph
 
