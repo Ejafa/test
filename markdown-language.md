@@ -184,7 +184,7 @@ I get 10 times more traffic from [Google][1] than from
 ```
 ![alt text](/path/to/img.jpg "Title")
 ```
-![this is alternative text for just do it](/images/just_do_it.gif "just do it man!")
+![this is alternative text for just do it](/images/download.gif "trying man!")
 
 **Linking Images**
 
