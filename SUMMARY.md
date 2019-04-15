@@ -2,5 +2,8 @@
 
 * [Test](README.md)
 * [Markdown language](markdown-language.md)
-* [Rust](rust.md)
+
+## Rust
+
+* [Untitled](rust/untitled.md)
 
