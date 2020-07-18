@@ -150,11 +150,10 @@ start_menu(){
 		;;
 		*)
 	clear
-	echo "Please enter the correct number"
+	echo "Please enter the correct number "
 	sleep 2s
 	start_menu
 	;;
     esac
 }
-
 start_menu
