@@ -1,5 +1,4 @@
 #!/bin/bash
-
 blue(){
     echo -e "\033[34m\033[01m$1\033[0m"
 }
@@ -56,7 +55,7 @@ if test -s /etc/nginx/nginx.conf; then
 	rm -rf /etc/nginx/nginx.conf
   wget -P /etc/nginx https://raw.githubusercontent.com/V2RaySSR/Trojan_panel_web/master/nginx.conf
 	green "================================="
-	blue "     请输入Trojan绑定的域名"
+	blue " Please enter the domain name:"
 	green "================================="
 	read your_domain
   sed -i "s/localhost/$your_domain/;" /etc/nginx/nginx.conf
